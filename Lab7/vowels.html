@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            Vowel Letter Count
+        </title>
+    </head>
+    <body>
+        <script>
+                let str;
+                str = prompt("Enter the string", str);
+                let vowels = str.match(/[aeiou]/gi);
+                let count = vowels.length;
+                document.write("Number of vowels in the string: " + count);
+        </script>
+    </body>
+</html>

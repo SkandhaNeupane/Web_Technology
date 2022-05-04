@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Occurences in a letter</title>
+    </head>
+    <body>
+        <script>
+            let str = prompt("Enter the string");
+            let str1 = prompt("Enter the character to find");
+            let count = 0;
+            for (var i = 0; i < str.length; i++) {
+                if (str[i] == str1) {
+                    count++;
+                }
+            }
+            document.write("The number of occurances of " + str1 + " in the string " + str + " is " + count);
+        </script>
+    </body>
+</html>
